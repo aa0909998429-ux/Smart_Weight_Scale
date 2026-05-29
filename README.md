@@ -1,4 +1,4 @@
-# ⚡ Python BLE 智慧體重計直連工具 (Smart Weight Scale)
+#  Python BLE 智慧體重計直連工具 (Smart Weight Scale)
 
 這是一個基於 Python 與 [`bleak`](https://github.com/hbldh/bleak) 函式庫的低功耗藍牙 (BLE) 體重計連線工具。專為解決體重計「廣播時間短、容易進入省電模式休眠」的問題而設計。
 
@@ -6,7 +6,7 @@
 
 ---
 
-## ✨ 功能特點
+##  功能特點
 
 * **閃電直連模式**：先以 `BleakScanner` 快速捕捉廣播包，鎖定目標後立即連線，大幅降低連線失敗率。
 * **防休眠機制應對**：包含自動重試邏輯，應對體重計短暫廣播即關機的硬體限制。
@@ -15,7 +15,7 @@
 
 ---
 
-## 🛠️ 環境準備
+##  環境準備
 
 1. **作業系統支援**：Windows 10/11, macOS, Linux
 2. **Python 版本**：Python 3.8+
